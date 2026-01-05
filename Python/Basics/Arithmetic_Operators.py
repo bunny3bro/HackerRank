@@ -1,0 +1,9 @@
+if __name__ == '__main__':
+    a = int(input())
+    b = int(input())
+    if 1<=a and a<=10**10 and 1<=b and b<=10**10:
+        print(a+b)
+        print(a-b)
+        print(a*b)
+    else:
+        print("Enter the value of a and b in the range.")
