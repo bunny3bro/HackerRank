@@ -1,12 +1,13 @@
 a = int(input("Enter value of a: "))
 b = int(input("Enter value of b: "))
 
-if 1 <= a <= 1010 and 1 <= b <= 1010:   # this tells a <= 1 to 1010 and b <= 1 to 1010
-    print("Addation of a and b",a + b)  # add a and b
-    print("subrecation of a and b",a - b)  # sub a and b
-    print("multiplacation of a and b",a * b)  # multi a and b
+# Check if a and b are between 1 and 1010
+if 1 <= a <= 1010 and 1 <= b <= 1010:
+    print("Addition of a and b:", a + b)          # add a and b
+    print("Subtraction of a and b:", a - b)       # subtract b from a
+    print("Multiplication of a and b:", a * b)   # multiply a and b
 else:
-    print("enter the number")
+    print("Please enter numbers between 1 and 1010")
 
 ## ### #### ###### ####### ###### Alterneavitv ## ### ##### ###### #######
 
